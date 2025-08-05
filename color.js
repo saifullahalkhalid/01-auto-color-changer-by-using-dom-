@@ -26,7 +26,7 @@ window.onload = () => {
           intervalId = setInterval(() => {
             const bgColor = generateRGBColor();
             root.style.backgroundColor = bgColor;
-          }, 100);
+          }, 300);
           btn.textContent = 'Stop Color';
         } else {
           // Stop color changing
