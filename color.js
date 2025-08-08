@@ -32,7 +32,7 @@ window.onload = () => {
           // Stop color changing
           clearInterval(intervalId);
           intervalId = null;
-          btn.textContent = 'Lets Go';
+          btn.textContent = "Let's Go";
         }
       });
     }
